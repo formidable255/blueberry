@@ -1,21 +1,30 @@
-@@ -0,0 +1,55 @@
 body {
 	font-family: Segoe UI, arial, sans-serif;
-	background-color: Red;
-	color: Red;
+	background-color: #013982;
+	color: #ffffff;
 }
 
 img.person {
     width: 120px;
     float:  left;
-    padding-left:  30px;
-    padding-right:  30px;
+    padding-left: 30px;
+    padding-right: 30px;
+	padding-top: 20px;
+}
+
+h1 {
+	font-style: italic;
 }
 
 div#bio {
     width:  80%;
-    padding-left:  30px;
-	color:White;
+	padding-right: 10px;
+	border: solid 3px black;
+	border-radius: 30px;
+}
+
+#bio {
+	margin: auto;
 }
 
 div#logo {
@@ -25,7 +34,7 @@ div#logo {
 }
 
 div#container {
-	background-color: Red;
+	background-color: #0270ff;
 	min-width:850px;
 	margin-left: auto;
 	margin-right: auto;
@@ -36,11 +45,12 @@ div#container {
 	margin-right: auto;
 	width: 80%; 
     padding-bottom: 50px;
+	border: solid 3px black;
+	border-radius: 30px;
 }
 
 h1, h2, div>a {
     padding-left:  30px;
-	color: White;
 }
 
 ul>li {
