@@ -1,0 +1,20 @@
+body{
+    background-color: #00B8BC;
+}
+
+.person{
+    float: left;
+    background-color: skyblue
+
+}
+
+#bio{
+    margin-top: 3.8%;
+    background-color: aquamarine;
+    padding: 10%;
+    margin-left: 5%;
+}
+
+h1{
+    background-color: skyblue;
+}
